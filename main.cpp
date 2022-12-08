@@ -1,17 +1,19 @@
 #include <iostream>
-#include "lib.h"
 using namespace std;
+#include "lib.h"
 
-int main (){
-    bool f;
-char lettera;
-cin>>lettera;
-f = convertitore(lettera);
-    if (f == true){
-        cout<< lettera<<endl;
+int main() {
+    char a;
+    bool t;
+    cin>>a;
+
+    t= conversione(a);
+    if(t== true){
+        cout<<a<<endl;
     }
-    else
+    else{
         cout<<"errore"<<endl;
+    }
 
 
     return 0;
