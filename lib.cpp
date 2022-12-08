@@ -1,7 +1,7 @@
 #include "lib.h"
 bool convertitore(char &l){
 
-    if(l != '\0' ) {
+    
 
         if (l >= 'A' && l <= 'Z') {
             l = l + 32;
@@ -12,7 +12,7 @@ bool convertitore(char &l){
 
             return true;
 
-    }
+    
     else  if (l >= 0 && l <= 9)
         return false;
 }
