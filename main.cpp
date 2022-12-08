@@ -1,3 +1,8 @@
+#include <iostream>
+using namespace std;
+#include "lib.h"
+
+
 int main() {
     char a;
     bool t;
@@ -10,10 +15,6 @@ int main() {
     else{
         cout<<"errore"<<endl;
     }
-
-
-
-
-
+    
     return 0;
 }
