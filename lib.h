@@ -1,1 +1,1 @@
-bool conversione(char);
+bool convertitore(char);
