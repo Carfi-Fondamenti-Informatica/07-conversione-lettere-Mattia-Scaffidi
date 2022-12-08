@@ -10,7 +10,7 @@ bool convertitore(char &l){
             return true;
         }
 
-    else if (l == '\0')
+    else if (l == '\0'){
 
-    return false;
+    return false;}
 }
